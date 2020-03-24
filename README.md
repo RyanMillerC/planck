@@ -1,5 +1,7 @@
 # Ryan Miller's Planck Layout
 
+Custom layout for building Planck keyboard [QMK Firmware](https://github.com/qmk/qmk_firmware). 
+
 ## Building
 
 Run:
