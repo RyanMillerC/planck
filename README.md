@@ -11,6 +11,7 @@ $ git clone https://github.com/qmk/qmk_firmware.git
 $ cd qmk_firmware
 $ git clone https://github.com/ryanmillerc/planck.git \
             keyboards/planck/keymaps/ryanmillerc
+$ make git-submodule
 $ make planck/rev4:ryanmillerc
 ```
 
