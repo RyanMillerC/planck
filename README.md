@@ -4,8 +4,6 @@ Custom layout for building Planck keyboard [QMK Firmware](https://github.com/qmk
 
 ## Setup
 
-Run:
-
 ```
 $ git clone https://github.com/qmk/qmk_firmware.git
 $ cd qmk_firmware
@@ -15,8 +13,6 @@ $ make git-submodule
 ```
 
 ## Build
-
-Run:
 
 ```
 $ make planck/rev4:ryanmillerc
