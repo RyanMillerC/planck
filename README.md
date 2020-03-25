@@ -2,7 +2,7 @@
 
 Custom layout for building Planck keyboard [QMK Firmware](https://github.com/qmk/qmk_firmware). 
 
-## Building
+## Setup
 
 Run:
 
@@ -12,12 +12,19 @@ $ cd qmk_firmware
 $ git clone https://github.com/ryanmillerc/planck.git \
             keyboards/planck/keymaps/ryanmillerc
 $ make git-submodule
+```
+
+## Build
+
+Run:
+
+```
 $ make planck/rev4:ryanmillerc
 ```
 
-## Flashing
+## Flash
 
-Turn on keyboard RESET mode, then run:
+Attach keyboard, enter RESET mode, then run:
 
 ```
 $ make planck/rev4:ryanmillerc:dfu
